@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              tools:context=".MainActivity"
+              android:orientation="horizontal"
+
+
+>
+
+    <Button
+            android:text="@string/redButton"
+            style="@style/ButtonStyleLandscape"
+            android:id="@+id/redButton"
+
+    />
+    <Button
+            android:text="@string/blueButton"
+            style="@style/ButtonStyleLandscape"
+            android:id="@+id/blueButton"
+
+    />
+   <Button
+           android:text="@string/greenButton"
+           style="@style/ButtonStyleLandscape"
+           android:id="@+id/greenButton"
+           />
+
+</LinearLayout>
